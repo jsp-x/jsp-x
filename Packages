@@ -1,3 +1,20 @@
+Package: jsp-audio
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-tk, sox, libsox-fmt-all, ffmpeg, alsa-utils
+Filename: debs/jsp-audio_1.0.0_all.deb
+Size: 54464
+MD5sum: 29c1e54f4892586afda1f625a9e79ec5
+SHA1: 95667f390dc12e468a23821a032be99988e3d311
+SHA256: 5384a0b88b1400b2d01ad80fa4b296ec285c1c7da668856e1d2a4c83a30699cf
+Section: sound
+Priority: optional
+Description: Lightweight audio editor for Devuan Linux
+ Editor de audio ligero optimizado para entornos de escritorio livianos.
+ Permite edición de ondas en RAM, efectos con SoX y exportación
+ multiformato a través de FFmpeg.
+
 Package: jsp-conversor
 Version: 1.0.0
 Architecture: all
