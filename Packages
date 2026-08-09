@@ -1,0 +1,64 @@
+Package: jsp-audio
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-tk, sox, libsox-fmt-all, ffmpeg, alsa-utils
+Filename: debs/jsp-audio_1.0.1_all.deb
+Size: 54464
+MD5sum: a6844effd9d4ad428af47a5b370381df
+SHA1: 617df3dd9abe35b6f3ce965c5af109f81678e71a
+SHA256: bf0b86a24e5c69af60ebee50e9038680a815594067fd47d7e1369d75aa36d4b0
+Section: sound
+Priority: optional
+Description: Lightweight audio editor for Devuan Linux
+ Editor de audio ligero optimizado para entornos de escritorio livianos.
+ Permite edición de ondas en RAM, efectos con SoX y exportación
+ multiformato a través de FFmpeg.
+
+Package: jsp-conversor
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-gi, gir1.2-gtk-3.0, zenity, imagemagick, ffmpeg, libx264-dev, libmp3lame0
+Filename: debs/jsp-conversor_1.0.0_all.deb
+Size: 36420
+MD5sum: 522b2992494d31a5a189d91b3bb0baba
+SHA1: 7173a27beda526b1e08308c72905e100e90cdb10
+SHA256: d4174c5fba7c37fe55574f464ca7b0fd9a0b8874daf6fc0b68b163b7ef9f911d
+Section: utils
+Priority: optional
+Description: Conversor mulitidioma de imágenes, audio y vídeo
+ Aplicación gráfica simple basada en GTK3 y Zenity para realizar
+ conversiones rápidas de archivos multimedias en Devuan.
+
+Package: jsp-dv
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-tk, dvgrab, ffmpeg, mpv, zenity
+Filename: debs/jsp-dv_1.0.0_all.deb
+Size: 19384
+MD5sum: f1cdf626ef5cf5e09f01bd0cdb4dfaf6
+SHA1: 21ab4231edd1e7063e6c45a92b62506156a8b5f5
+SHA256: 2fddbdab8859d4be2f78e68111d192c71d5a4f5302fa124a01bbcec2c919ac41
+Section: video
+Priority: optional
+Description: JSP DV - MiniDV Tape Capture & Auto MP4 Converter
+ Suite de captura de cinta MiniDV vía FireWire y conversor automático a MP4 con interfaz gráfica liviana en Tkinter.
+
+Package: jsp-video
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-tk, ffmpeg, zenity, mpv
+Filename: debs/jsp-video_1.0.0_all.deb
+Size: 100984
+MD5sum: 97dbf7eceb41211186b13660f8bb5ba1
+SHA1: 15395e8d6b1cf4cbadfb67cdb494fc3192aeba3c
+SHA256: 4aeba98b06f733d5201508412731d2df8b09efdc4570727bda11da3f29c0e3c7
+Section: video
+Priority: optional
+Description: JSP Video - Lightweight Video Editor
+ Editor y cortador de vídeo ligero con línea de tiempo y miniaturas.
+ Permite edición precisa, rotación, unión y extracción de audio vía FFmpeg y MPV.
+
