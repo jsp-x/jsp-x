@@ -46,19 +46,3 @@ Priority: optional
 Description: JSP DV - MiniDV Tape Capture & Auto MP4 Converter
  Suite de captura de cinta MiniDV vía FireWire y conversor automático a MP4 con interfaz gráfica liviana en Tkinter.
 
-Package: jsp-video
-Version: 1.0.0
-Architecture: all
-Maintainer: JorgeSP <jsp-x@tutamail.com>
-Depends: python3, python3-tk, ffmpeg, zenity, mpv
-Filename: debs/jsp-video_1.0.0_all.deb
-Size: 100984
-MD5sum: 97dbf7eceb41211186b13660f8bb5ba1
-SHA1: 15395e8d6b1cf4cbadfb67cdb494fc3192aeba3c
-SHA256: 4aeba98b06f733d5201508412731d2df8b09efdc4570727bda11da3f29c0e3c7
-Section: video
-Priority: optional
-Description: JSP Video - Lightweight Video Editor
- Editor y cortador de vídeo ligero con línea de tiempo y miniaturas.
- Permite edición precisa, rotación, unión y extracción de audio vía FFmpeg y MPV.
-
