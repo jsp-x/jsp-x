@@ -62,3 +62,40 @@ Description: JSP Video - Lightweight Video Editor
  Editor y cortador de vídeo ligero con línea de tiempo y miniaturas.
  Permite edición precisa, rotación, unión y extracción de audio vía FFmpeg y MPV.
 
+Package: linux-headers-5.10.263-cip76
+Source: linux-5.10.263-cip76
+Version: 5.10.263-cip76-1
+Architecture: i386
+Maintainer: live <live@JSP-Educa>
+Installed-Size: 49003
+Filename: debs/linux-headers-5.10.263-cip76_5.10.263-cip76-1_i386.deb
+Size: 7973700
+MD5sum: 2c88c2edbfaa823ec69a860ef0a8d285
+SHA1: c909d637ce572f92823a5d9426e09fc089dfd8f9
+SHA256: 1db884077ea3ff32df72bc80f7831e64e0adea35588b39790b819029312af4f7
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.263-cip76 on i386
+ This package provides kernel header files for 5.10.263-cip76 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.10.263-cip76
+Source: linux-5.10.263-cip76
+Version: 5.10.263-cip76-1
+Architecture: i386
+Maintainer: live <live@JSP-Educa>
+Installed-Size: 171712
+Filename: debs/linux-image-5.10.263-cip76_5.10.263-cip76-1_i386.deb
+Size: 47624120
+MD5sum: 9645702b6269c47717e3604fecde870f
+SHA1: 42230c4f9800495db127ebefbbf8baf0cba9a8c7
+SHA256: 6578c8dfe60b05e2de23bf82a6cc6b6ae8958591fe6a875546de32db6123797d
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.263-cip76
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.263-cip76.
+
