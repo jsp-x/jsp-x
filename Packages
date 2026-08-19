@@ -99,3 +99,18 @@ Description: Linux kernel, version 5.10.263-cip76
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.263-cip76.
 
+Package: yt-player
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-tk, python3-pip, mpv, yt-dlp, curl, ca-certificates
+Filename: debs/yt-player_1.0.0_all.deb
+Size: 24728
+MD5sum: 8fc14056319689100a362d19861c494f
+SHA1: 27a8f952ace6faa5f5d4b0f392a1568fcb7e298c
+SHA256: a0b0147bc9e5fc9f168ab6f672808a3a35f0fdc754dc0544cb2fa63ed6cd3590
+Section: utils
+Priority: optional
+Description: Visor ligero de YouTube con Tkinter, MPV y QuickJS
+ Interfaz gráfica para buscar y reproducir vídeos y audio de YouTube.
+
