@@ -15,6 +15,22 @@ Description: Lightweight audio editor for Devuan Linux
  Permite edición de ondas en RAM, efectos con SoX y exportación
  multiformato a través de FFmpeg.
 
+Package: jsp-browser
+Version: 1.0.0
+Architecture: all
+Maintainer: JorgeSP <jsp-x@tutamail.com>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-webkit2-4.0
+Filename: debs/jsp-browser-1.0.0_all.deb
+Size: 19340
+MD5sum: 54e8a5f4ba4178c61589293a0e38af0d
+SHA1: 507bf054b56bef66f658918fcd9ee40d0351c6e5
+SHA256: fbc4b6edf2cd504beb23c1fb1144d7352ad1781eb97493fd188a68bb3afbb03e
+Section: web
+Priority: optional
+Description: Navegador web minimalista y ligero
+ Un navegador ultra ligero basado en Python 3 y WebKit2GTK, diseñado
+ específicamente para maximizar el rendimiento y minimizar el consumo de RAM. Incluye interruptor de JS e internacionalización.
+
 Package: jsp-conversor
 Version: 1.0.0
 Architecture: all
